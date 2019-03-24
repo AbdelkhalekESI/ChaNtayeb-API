@@ -23,4 +23,5 @@ Route::resource('diseases','DiseaseController')->only(['index']);
 
 Route::get('/search', 'SearchController@index');
 
+
 Route::get('/search/result', 'SearchController@show');
